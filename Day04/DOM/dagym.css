@@ -1,0 +1,54 @@
+.container {
+  width: 100vw;
+}
+
+.centered {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.album {
+  width: 200px;
+  height: 250px;
+}
+
+.album > img {
+  width: 70%;
+  height: 70%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.a {
+  font-size: 10px;
+  color: gray;
+}
+
+.b {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.c {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.d {
+  font-size: 10px;
+  color: gray;
+}
